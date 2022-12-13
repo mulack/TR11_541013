@@ -17,7 +17,7 @@ VET* VETORD_create(int n, COMP* compara){//Cria um vetor ordernado vazio de tama
 void VETORD_add(VET* vetor, void* novo_elems){
     /*Adiciona o elemento newelem ao vetor ordenado, na posicao correta se for possível
 ainda incluir o elemento (se existe espaco no vetor). O vetor deve estar ordenado em
-ordem crescente, ou seja: x[i] é menor que ou equivalente a x[j] para todo i < j; passar na main o vetor do tipo VET e o elemento*/
+ordem crescente, ou seja: x[i] é menor que ou equivalente a x[j] para todo i < j;*/
     if (vetor->P < vetor->N) {
         if (vetor->P == 0) {
             vetor->elems[0] = novo_elems;
