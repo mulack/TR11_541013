@@ -19,7 +19,7 @@ confirme, e pronto</p>
 
 <h2 align="center">Como gerar a biblioteca para usar no seu código</h2>
 
-<p align="center">Execute:
+<p align="center"> Execute:
 
 ```
 gcc -c ordvetor.c
@@ -31,7 +31,8 @@ Exemplo de como compilar junto com seu código:
 
 ```
 gcc main.c ordvetor.o -o nome_do_programa
-```</p>
+```
+</p>
 
 <h2 align="center">Sobre o Codigo</h2>
 
