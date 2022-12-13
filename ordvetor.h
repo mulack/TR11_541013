@@ -18,7 +18,7 @@ typedef struct vet{
 
 VET* VETORD_create(int n, COMP* compara);
 
-void VETORD_add(VET* vetor, void* newelem);
+void VETORD_add(VET* vetor, void* novo_elems);
 
 void* VETORD_remove(VET* vetor);
 
