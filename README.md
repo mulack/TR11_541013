@@ -31,7 +31,7 @@ Exemplo de como compilar junto com seu código:
 
 ```
 gcc main.c ordvetor.o -o nome_do_programa
-```<p>
+```</p>
 
 <h2 align="center">Sobre o Codigo</h2>
 
